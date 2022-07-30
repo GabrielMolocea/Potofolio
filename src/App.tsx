@@ -1,13 +1,12 @@
-import React from 'react';
 import './App.css';
 import Header from './header/Header';
-import HomePageFirstSection from './homePage/homePageFirstSection';
+import Desciption from './homePage/Desciption';
 
 function App() {
   return (
     <>
       <Header className="bg-coloer-green" />
-      <HomePageFirstSection />
+      <Desciption />
     </>
   );
 }
