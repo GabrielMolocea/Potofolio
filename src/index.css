@@ -23,4 +23,13 @@ code {
   .sidebar-tooltip {
     @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-white bg-gray-900 text-xs font-bold transition-all duration-100 scale-0 origin-left;
   }
+  .middle {
+    @apply absolute top-[80%] left-[53%] translate-y-1/2 translate-x-1/2;
+  }
+  .mouse {
+    @apply w-6 h-10 border-4 border-solid border-[#333] rounded-full;
+  }
+  .mouse::before {
+    @apply content-[''] w-2 h-2 absolute top-8 bg-[#333] left-1/2 translate-x-[-50%] rounded-full opacity-100 animate-mouse;
+  }
 }

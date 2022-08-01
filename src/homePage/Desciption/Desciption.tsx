@@ -1,3 +1,4 @@
+import AnimatedScroll from './AnimatedScroll';
 import SideBar from './SideBar';
 
 export default function Desciption(params: any) {
@@ -16,6 +17,7 @@ export default function Desciption(params: any) {
         </div>
       </div>
       <SideBar />
+      <AnimatedScroll />
     </section>
   );
 }
